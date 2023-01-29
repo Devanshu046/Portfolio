@@ -1,0 +1,132 @@
+.topnav {
+  background-color: rgba(36, 33, 33, 0.755);
+  overflow: hidden;
+}
+.body {
+  /* background-color: rgba(23, 18, 18, 0.273); */
+  margin: auto;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 16px;
+}
+.name {
+  float: left;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+.name:hover {
+  background-color: none;
+  color: black;
+}
+.resume{
+  float: right;
+  margin-right: 3%;
+  font-weight: 500;
+}
+.resume:hover{
+  background-color: black;
+}
+.maininfo {
+  margin-top: 8%;
+  margin-left: 20%;
+  font-weight: 600;
+  color: rgb(17, 85, 210);
+}
+.maininfo h1 {
+  color: rgb(9, 17, 250);
+  /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; */
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: clamp(30px, 8vw, 50px);
+}
+.maininfo p {
+  max-width: 40%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Verdana, sans-serif;
+}
+.aboutme {
+  margin-top: 6%;
+  margin-left: 20%;
+  font-size: x-large;
+  font-weight: 550;
+  color: rgb(9, 17, 250);
+}
+.aboutme p {
+  max-width: 40%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Verdana, sans-serif;
+}
+.tech {
+  margin-top: 6%;
+  margin-left: 20%;
+  font-size: x-large;
+  font-weight: 550;
+  color: rgb(9, 17, 250);
+}
+
+.tech img {
+  max-width: 60%;
+}
+.edu {
+  margin-top: 4%;
+  margin-left: 20%;
+  font-size: x-large;
+  font-weight: 550;
+  color: rgb(9, 17, 250);
+}
+.edu h4 {
+  color: black;
+  max-width: 25%;
+}
+.edu h5 {
+  color: black;
+  /* margin-top: 2%; */
+}
+.edu h6 {
+  color: black;
+  margin-top: 0%;
+  padding-top: 1%;
+}
+.contact h5 {
+  margin-top: 4%;
+  margin-left: 20%;
+  font-size: x-large;
+  font-weight: 550;
+  color: rgb(9, 17, 250);
+}
+.contact a {
+  margin-top: 4%;
+  margin-left: 20%;
+  max-width: 2%;
+  max-height: 2%;
+}
+.contact h4 {
+  color: black;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 50px;
+  padding: 30px;
+  /* margin-top: 6%; */
+  margin-left: 17%;
+}
+
+.photo {
+  max-width: 31.333%;
+  padding: 0 10px;
+  height: 240px;
+}
+
+.photo img {
+  width: 100%;
+  height: 10%;
+}
